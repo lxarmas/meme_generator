@@ -6,10 +6,9 @@ body{
     margin: 0;
 }
 main{
-    padding:46px;
+    padding:36px;
 }
 .header{
-    margin-top: 10px;
     display:flex;
     align-items:center ;
     height:140px;
@@ -34,9 +33,25 @@ main{
 
 .form{
     display: grid;
-    grid-template: 40px 40px /1fr 1fr;
+    grid-template: 100% 100%/ 1fr 1fr;
     gap:17px;
 }
+
+.form--input{
+    font-family: "Karla", sans-serif;
+    border-radius:5px;
+    border: 1px solid;
+    text-indent:5px; 
+    height:35px;
+    width: 100%;
+}
 .form--button{
+    font-family: "Karla", sans-serif;
+    font-size: 1rem;
     grid-column: 1/-1;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color:white;
+    border:none;
+    cursor:pointer;
 }
